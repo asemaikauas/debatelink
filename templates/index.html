@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="/static/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="font-weight: bold;">
+          Debatelink
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#programs">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#chatbot">Chatbot</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#reviews">Reviews</a>
+            </li>
+      
+            <li class="nav-item  d-none d-lg-block">
+              <a aria-current="page" href="/login" class="btn btn-outline-light ms-2">Admin Login</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="/static/img/hero.JPG" class="d-block w-100" alt="students-1">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Making debates accessible for all</h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="/static/img/students-2.JPG" class="d-block w-100" alt="students-2">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Upskilling argumentation</h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="/static/img/students-3.JPG" class="d-block w-100" alt="students-3">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Promoting leadership</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="about" class="about-section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-12">
+          <div class="about-img">
+            <img src="/static/img/LOGO.JPG" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+          <div class="about-text" class="text-center">
+            <h2>About Us</h2>
+            <p>DebateLink organization strives to popularize debates and critical thinking among the youth of Central Asia. 
+              We aim to make debates accessible for students from remote regions and underprivileged areas, offering full funding to participate in our programs. 
+              Additionally, we raise funds for important social causes by organizing charity debate cups. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container py-5" id="programs">
+    <div class="heading-text">
+      <h1 class="text-center">Our Program</h1>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+      <div class="col">
+        <div class="card h-100 w-150" >
+          <img src="/static/img/card11.jpg" class="card-img-top" alt="card-1">
+          <div class="card-body">
+            <h5 class="card-title">🎓 Intro Course</h5>
+            <p class="card-text">2-month immersion debate program that consist of debate lectures and rounds for novices. 
+              Upon completion, students know how to play in WSDC format, have pretty good argumentation, rebuttal, and analysis 
+              skills. 
+            </p>
+            <a href="https://www.instagram.com/debatelink?igsh=ODVjOHJhbnViZmQz" class="btn btn-primary">Participate!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 w-150" >
+          <img src="/static/img/card22.jpg" class="card-img-top" alt="card-2">
+          <div class="card-body">
+            <h5 class="card-title">🧠 Debate Academy</h5>
+            <p class="card-text">The same as in the DebateIntro program, but in more intensive format. Lasts for 2 weeks where you can get fully immersed 
+              into debate basics. After the completion, you are ready to participate in your first tournament. 
+            </p>
+            <a href="https://www.instagram.com/debatelink?igsh=ODVjOHJhbnViZmQz" class="btn btn-primary">Try now!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col align-items-md-center">
+        <div class="card h-100 w-150" >
+          <img src="/static/img/card33.jpg" class="card-img-top" alt="card-3">
+          <div class="card-body">
+            <h5 class="card-title">🏆 Debate Tournaments</h5>
+            <p class="card-text">Annual organized cup. Open to all levels, this tournament offers students the chance to showcase their skills and compete in the WSDC format. 
+              It is not just about winning—it is also about learning, and contributing to a good cause. 
+            </p>
+            <a href="https://www.instagram.com/debatelink?igsh=ODVjOHJhbnViZmQz" class="btn btn-primary">Stay tuned!</a>
+          </div>
+        </div>
+      </div>
+       
+      </div>
+    </div>
+
+
+ 
+    
+
+
+    <section class="container py-5 achievements-section" >
+      <h2 class="text-center mb-5 fs-1">Our Achievements</h2>
+    
+      <div class="row text-center text-md-start">
+        <div class="col-md-4 mb-4">
+          <div class="p-4 bg-white rounded shadow-sm h-100">
+            <h5 class="fw-bold mb-3">
+              <i class="fa-solid fa-user-graduate text-primary me-2"></i> 400+ students
+            </h5>
+            <ul class="list-unstyled">
+              <li>✔️ Learned basics of debating and argumentation</li>
+              <li>✔️ 50+ champions of debate tournaments</li>
+              <li>✔️ 3 got selected for WSDC academy</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="col-md-4 mb-4">
+          <div class="p-4 bg-white rounded shadow-sm h-100">
+            <h5 class="fw-bold mb-3">
+              <i class="fa-solid fa-hand-holding-dollar text-success me-2"></i> $7000+ funding
+            </h5>
+            <ul class="list-unstyled">
+              <li>✔️ Attracted from prominent education centers</li>
+              <li>✔️ Raised for debate tournaments & Aul Debates</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="col-md-4 mb-4">
+          <div class="p-4 bg-white rounded shadow-sm h-100">
+            <h5 class="fw-bold mb-3">
+              <i class="fa-solid fa-hands-helping text-danger me-2"></i> $1700+ aid
+            </h5>
+            <ul class="list-unstyled">
+              <li>✔️ 3 international charity tournaments</li>
+              <li>✔️ Funds donated for crisis & humanitarian aid</li>
+              <li>✔️ Hospitalized one child with severe disease</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container py-5" id="interest">
+      <h2 class="text-center mb-4">Interested in Joining?</h2>
+      <form id="interestForm" class="mx-auto" style="max-width: 500px;">
+        <div class="mb-3">
+          <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <select class="form-select" name="program" required>
+            <option selected disabled>Select a Program</option>
+            <option value="Intro Course">Intro Course</option>
+            <option value="Debate Academy">Debate Academy</option>
+            <option value="Debate Tournament">Debate Tournament</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" name="message" placeholder="Your message (optional)" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">I'd like to join!</button>
+      </form>
+      <p id="successMessage" class="text-success text-center mt-3" style="display: none;">
+        Thank you! We'll contact you soon.
+      </p>
+    </section>
+    
+    <div class="heading-text-2" id="chatbot">
+      <h1 class="text-center">Our Chat-bot</h1>
+    </div>
+ 
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="nav flex-column nav-pills" id="imageTab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active mb-3"  data-bs-toggle="pill" data-bs-target="#img1" type="button" role="tab">
+              <h2 class="tab-title">Informative</h2>
+              <p class="tab-description">Each lecture is accompanied by 1-3 practical tasks 
+                designed to reinforce the concepts learned in the lecture.  
+              </p>
+            </button>
+            <button class="nav-link mb-3" data-bs-toggle="pill" data-bs-target="#img2" type="button" role="tab">
+              <h2 class="tab-title">Self-check</h2>
+              <p class="tab-description">The self-check feature provides a model of correct answers for the tasks associated with each lesson. 
+                You can compare your response with the model answer. 
+              </p>
+            </button>
+            <button class="nav-link mb-3" data-bs-toggle="pill" data-bs-target="#img3" type="button" role="tab">
+              <h2 class="tab-title">Learn anytime</h2>
+              <p class="tab-description">This flexible learning feature allows you to learn at your own pace, anytime and anywhere. 
+                You can access the lessons and tasks on your schedule.
+              </p>
+            </button>
+            <button class="nav-link mb-2" data-bs-toggle="pill" data-bs-target="#img4" type="button" role="tab">
+              
+              <h2 class="tab-title">Official</h2>
+              <p class="tab-description">Once you complete the course and pass the final assessments, you will receive 
+                an official certificate that verifies your accomplishment.
+              </p>
+            </button>
+          </div>
+        </div>
+      
+      
+        <div class="col-md-6">
+          <div class="tab-content" id="imageTabContent">
+            <div class="tab-pane fade show active" id="img1" role="tabpanel">
+              <img src="/static/img/screen1.jpg" class="img-fluid w-100 w-md-75 w-lg-50 mx-auto d-block" alt="Image 1">
+            </div>
+            <div class="tab-pane fade" id="img2" role="tabpanel">
+              <img src="/static/img/screen2.jpg" class="img-fluid w-100 w-md-75 w-lg-50 mx-auto" alt="Image 2">
+            </div>
+            <div class="tab-pane fade" id="img3" role="tabpanel">
+              <img src="/static/img/screen3.jpg" class="img-fluid" alt="Image 3">
+            </div>
+            <div class="tab-pane fade" id="img4" role="tabpanel">
+              <img src="/static/img/screen4.jpg" class="img-fluid" alt="Image 4">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bot">
+      <div class="container">
+        <div class="row row1">
+          <h1 class="heading-text-3 text-center">For anyone who is interested</h1>
+          <p class="text-center">Be the first to test our telegram bot and leave your feedback!</p>
+        </div>
+        <div class="row">
+          <button type="button" href="https://t.me/debatelinkbot" class="btnbot" id="telegramBtn">I want to try!</button>
+        </div>
+      </div>
+    </div>
+
+  
+    <div id="reviews"  class="carousel slide testominal testimonial-bg" data-bs-ride="carousel">
+      
+      <div class="heading text-center p-5">
+        <h1 class="text-dark">Our Students</h1>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row p-md-5">
+            <div class="col-md-6">
+              <div class="card custom-scale-left">
+                <div class="card-body">
+                  
+                  <h2 class="mt-3 quote-heading">
+                    <i class="fa-solid fa-quote-left quote-mark"></i> A New Level
+                  </h2>
+                    <p class="text-white">DebateLink opened many new doors for me. Initially, I actively participated 
+                    in the thematic lectures because they were really helpful😍 Later, we started playing rounds. 
+                    The participation there was interesting and novel while requiring considerable effort. Through this, 
+                    I honed my critical thinking skills in debating. 
+                  </p>
+
+                  <div class="d-flex align-items-start mt-3">
+                    <img src="/static/img/picture1.jpg" alt="Person Name" class="rounded-circle me-3 mt-3 mb-2" width="80" height="80">
+                    
+                    <div class="mt-4">
+                      <h2 class="mb-0 fw-bold text-white">Sagadat Innabol</h2>
+                      <h6 class="text-white-50">Debater from Taldykorgan, KZ</h6>
+                    </div>
+                  </div>
+                  
+
+                </div>
+              </div>
+             
+            </div>
+
+            
+          
+
+            <div class="col-md-6 d-none d-md-block mb-3">
+              <div class="card custom-scale-right">
+                <div class="card-body">
+                  <h2 class="mt-3 quote-heading">
+                    <i class="fa-solid fa-quote-left quote-mark"></i> My Starting Point
+                  </h2>
+                  <p class="text-white">My primary goal has always been to be my best, regardless of my background.
+                     The project organized by Debatelink, with its tournaments and academy, has significantly contributed to
+                      my pursuit of this goal. At the conference, it became clear to me that Debatelink is a place of opportunities. 
+                  </p>
+
+                  <div class="d-flex align-items-start mt-3">
+                    <img src="/static/img/picture2.jpeg" alt="Person Name" class="rounded-circle me-3 mt-3 mb-2" width="80" height="80">
+                    
+                    <div class="mt-4">
+                      <h2 class="mb-0 fw-bold text-white">Arukhan Kobegen</h2>
+                      <h6 class="text-white-50">Debater from Karakestek, KZ</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row p-md-5">
+            <div class="col-md-6">
+              <div class="card custom-scale-left">
+                <div class="card-body">
+                  
+                  <h2 class="mt-3 quote-heading">
+                    <i class="fa-solid fa-quote-left quote-mark"></i> A New Level
+                  </h2>
+                    <p class="text-white">DebateLink opened many new doors for me. Initially, I actively participated 
+                    in the thematic lectures because they were really helpful😍 Later, we started playing rounds. 
+                    The participation there was interesting and novel while requiring considerable effort. Through this, 
+                    I honed my critical thinking skills in debating. 
+                  </p>
+
+                  <div class="d-flex align-items-start mt-3">
+                    <img src="/static/img/picture1.jpg" alt="Person Name" class="rounded-circle me-3 mt-3 mb-2" width="80" height="80">
+                    
+                    <div class="mt-4">
+                      <h2 class="mb-0 fw-bold text-white">Sagadat Innabol</h2>
+                      <h6 class="text-white-50">Debater from Taldykorgan, KZ</h6>
+                    </div>
+                  </div>
+                  
+
+                </div>
+              </div>
+             
+            </div>
+
+            
+          
+
+            <div class="col-md-6 d-none d-md-block mb-3">
+              <div class="card custom-scale-right">
+                <div class="card-body">
+                  <h2 class="mt-3 quote-heading">
+                    <i class="fa-solid fa-quote-left quote-mark"></i> My Starting Point
+                  </h2>
+                  <p class="text-white">My primary goal has always been to be my best, regardless of my background.
+                     The project organized by Debatelink, with its tournaments and academy, has significantly contributed to
+                      my pursuit of this goal. At the conference, it became clear to me that Debatelink is a place of opportunities. 
+                  </p>
+
+                  <div class="d-flex align-items-start mt-3">
+                    <img src="/static/img/picture2.jepg" alt="Person Name" class="rounded-circle me-3 mt-3 mb-2" width="80" height="80">
+                    
+                    <div class="mt-4">
+                      <h2 class="mb-0 fw-bold text-white">Arukhan Kobegen</h2>
+                      <h6 class="text-white-50">Debater from Karakestek, KZ</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row p-md-5">
+            <div class="col-md-6">
+              <div class="card custom-scale-left">
+                <div class="card-body">
+                  
+                  <h2 class="mt-3 quote-heading">
+                    <i class="fa-solid fa-quote-left quote-mark"></i> A New Level
+                  </h2>
+                    <p class="text-white">DebateLink opened many new doors for me. Initially, I actively participated 
+                    in the thematic lectures because they were really helpful😍 Later, we started playing rounds. 
+                    The participation there was interesting and novel while requiring considerable effort. Through this, 
+                    I honed my critical thinking skills in debating. 
+                  </p>
+
+                  <div class="d-flex align-items-start mt-3">
+                    <img src="/static/img/picture1.jpg" alt="Person Name" class="rounded-circle me-3 mt-3 mb-2" width="80" height="80">
+                    
+                    <div class="mt-4">
+                      <h2 class="mb-0 fw-bold text-white">Sagadat Innabol</h2>
+                      <h6 class="text-white-50">Debater from Taldykorgan, KZ</h6>
+                    </div>
+                  </div>
+                  
+
+                </div>
+              </div>
+             
+            </div>
+
+            
+          
+
+            <div class="col-md-6 d-none d-md-block mb-3">
+              <div class="card custom-scale-right">
+                <div class="card-body">
+                  <h2 class="mt-3 quote-heading">
+                    <i class="fa-solid fa-quote-left quote-mark"></i> My Starting Point
+                  </h2>
+                  <p class="text-white">My primary goal has always been to be my best, regardless of my background.
+                     The project organized by Debatelink, with its tournaments and academy, has significantly contributed to
+                      my pursuit of this goal. At the conference, it became clear to me that Debatelink is a place of opportunities. 
+                  </p>
+
+                  <div class="d-flex align-items-start mt-3">
+                    <img src="/static/img/picture2.jpeg" alt="Person Name" class="rounded-circle me-3 mt-3 mb-2" width="80" height="80">
+                    
+                    <div class="mt-4">
+                      <h2 class="mb-0 fw-bold text-white">Arukhan Kobegen</h2>
+                      <h6 class="text-white-50">Debater from Karakestek, KZ</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testominalCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testominalCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <footer class="bg-dark text-light py-4" id="contact">
+      <div class="container px-4">
+        <div class="row">
+          <div class="col col-lg-4">
+            <h1 class="pt-2 fw-bold">Debatelink</h1>
+            <p>Almaty, Kazakhstan</p>
+            <p>87074567844</p>
+            <p class="mb-0">87029007334</p>
+          </div>
+          <div class="col">
+            <h4 class="pt-3 fw-bold">Menu</h4>
+            <ul class="list-unstyled">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#programs">Programs</a></li>
+              <li><a href="#chatbot">Chatbot</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+              <li><a href="#contact">Contact</a></li>
+
+            </ul>
+          </div>
+          <div class="col">
+            <h4 class="pt-3 fw-bold">More</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://youtu.be/Df1LWdWsep8?feature=shared">What is Debate?</a></li>
+              <li><a href="https://indebate.info/ru/school-format/wsdc.html">WSDC format</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4 class="pt-3 fw-bold">Social Media</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://www.instagram.com/debatelink?igsh=ODVjOHJhbnViZmQz" class="text-decoration-none text-light"><i class="bi bi-instagram fs-2"></i></a></li>
+              <li><a href="https://t.me/+UqEvWBuAZXplNzMy" class="text-decoration-none text-light"><i class="bi bi-telegram fs-2"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/debatelink?trk=similar-pages" class="text-decoration-none text-light"><i class="bi bi-linkedin fs-2"></i></a></li>
+            </ul>
+          </div>
+
+        
+          
+        </div>
+
+        <hr>
+
+        <div class="d-flex justify-content-between">
+          <p>2025 ⓒ Debatelink Organization. All Rights Reserved.</p>
+          <div class="d-flex">
+            <a href="https://docs.google.com/document/d/1AAYB_KOPmiHOh8o8JYQq6jogik6GsSCk/edit?usp=sharing&ouid=103146712853922070584&rtpof=true&sd=true" class="text-decoration-none text-light me-4">Terms of Use</a>
+            <a href="https://docs.google.com/document/d/1MrkakIqbQvneq6-bFqVedglofNoLqJv2/edit?usp=sharing&ouid=103146712853922070584&rtpof=true&sd=true" class="text-decoration-none text-light">Privacy Policy</a>
+          </div>
+          
+        </div>
+      </div>
+      
+    
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
+
+ 
