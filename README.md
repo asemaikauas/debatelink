@@ -49,19 +49,25 @@
 ## About The Project
 
 
-**Debatelink** is a web application of my organization that promotes debate education and critical thinking for students across Central Asia. It features a dynamic landing page where users can learn about the mission, achievements, and programs of the organization, register for events through the interest submitting form, and get involved.
-
-An integrated admin panel allows authorized team member to review all registrations submitted through the site — making it a lightweight CRM for tracking outreach and engagement.
+**Debatelink** is a web application of my organization that promotes debate education and critical thinking for students across Central Asia. It features a dynamic landing page where users can learn about the mission, achievements, and programs of the organization and leave their interest for events so to get contacted by the organization. It includes: 
+- Landing page styled with Bootstrap
+- Registration form for capturing participant data
+- Admin panel for reviewing submissions (basic authorization setup)
+- Data saved locally to data.json
+- Designed for outreach in the Central Asian region
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
+
 
 ### Built With
 
 * [Flask](https://flask.palletsprojects.com/)
 * [Bootstrap](https://getbootstrap.com)
 * [HTML/CSS/JS](https://developer.mozilla.org/)
+* [Jinja2](https://pypi.org/project/Jinja2/)
+* [JSON](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,14 +79,13 @@ An integrated admin panel allows authorized team member to review all registrati
 
 You’ll need:
 - Python 3.8+
-- A valid OpenAI API Key
 
 ### Installation
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/asemaikauas/AIDEBATE.git
-   cd AIDEBATE
+   git clone https://github.com/asemaikauas/debatelink.git
+   cd debatelink
    ```
 
 2. Set up a virtual environment  
@@ -94,18 +99,12 @@ You’ll need:
    pip install -r requirements.txt
    ```
 
-4. In the root of your project (same level as app.py), create a file named .env and add your OpenAI API key:
-
-   ```
-   OPENAI_API_KEY=your-api-key
-   ```
-
-5. Through the terminal, run the app  
+4. Through the terminal, run the app  
    ```bash
    flask run
    ```
 
-6. Visit `http://127.0.0.1:5000`
+5. Visit `http://127.0.0.1:5000`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,19 +112,10 @@ You’ll need:
 
 ## Usage
 
-1. Input a debate motion.
-2. Choose your format: BP / WSDC / PF.
-3. Select options:
-   - Include suggested readings?
-   - Show related YouTube video?
-4. Click **Analyze Motion**.
-
-🎯 Output includes:
-- Topic difficulty (Easy/Medium/Hard)
-- Category tags (e.g., Ethics, IR, Economics)
-- Structured arguments for both sides
-- Suggested readings if selected 
-- Related YouTube Video if selected
+1. Open the home page to explore information about Debatelink and upcoming programs.
+2. Users can fill out the registration form to express interest in joining. 
+3. Admins can log in to the admin panel to view submitted registrations.
+4. All form data is stored in a local data.json file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,9 +123,9 @@ You’ll need:
 
 ## Demo
 
-Watch a quick walkthrough of the AI Debate Topic Analyzer:
+Watch a quick walkthrough of the application:
 
-[![Watch the demo](https://img.youtube.com/vi/zewjy05VNL8/maxresdefault.jpg)](https://www.youtube.com/watch?v=zewjy05VNL8)
+[![Watch the demo](https://img.youtube.com/vi/-zIKTPEdKto/maxresdefault.jpg)](https://youtu.be/-zIKTPEdKto)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,10 +134,15 @@ Watch a quick walkthrough of the AI Debate Topic Analyzer:
 
 ## Roadmap
 
-- [ ] Add Lincoln-Douglas format
-- [ ] Save motion history per user
-- [ ] User login & profile features
-- [ ] Multilingual motion support (Kazakh, Russian, etc.)
+- [ ] Enable email confirmation for registration
+- [ ] Migrate from JSON to a relational database (e.g., SQLite or PostgreSQL)
+- [ ] Add export-to-CSV feature for admin panel
+- [ ] Implement secure admin login system
+- [ ] Create an event registration system:
+  - [ ] Allow verified organizers to post debate tournaments
+  - [ ] Let users view, filter, and register for events
+  - [ ] Track registrations per event for both users and organizers
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +168,7 @@ Contributions are what make the open source world amazing!
 ## Contact
 
 Asemai – kauasasemai05@gmail.com  
-Project Link: [https://github.com/asemaikauas/AIDEBATE](https://github.com/asemaikauas/AIDEBATE)
+Project Link: [https://github.com/asemaikauas](https://github.com/asemaikauas)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,8 +177,11 @@ Project Link: [https://github.com/asemaikauas/AIDEBATE](https://github.com/asema
 ## Acknowledgments
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [OpenAI API](https://platform.openai.com/)
+* [Flask](https://flask.palletsprojects.com/en/stable/)
 * [Bootstrap](https://getbootstrap.com)
 * [Font Awesome](https://fontawesome.com)
+* All educators and students who inspired this platform 💙
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
