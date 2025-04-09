@@ -4,13 +4,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/yourusername/ai-debate-topic-analyzer">
-    <img src="images/logo.png" alt="Logo" width="120" height="40">
+    <img src="static/img/LOGO.JPG" alt="Logo" width="120" height="120">
   </a> 
 
-  <h3 align="center">AI Debate Topic Analyzer</h3>
+  <h3 align="center">Debatelink</h3>
 
   <p align="center">
-    An AI assistant for debate motion analysis. 
+    Simple web application where users can learn about the organization of Debatelink and its services and programs, 
     <br />
     <br />
     <a href="https://www.youtube.com/watch?v=zewjy05VNL8">View Demo</a>
