@@ -3,17 +3,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/yourusername/ai-debate-topic-analyzer">
+  <a href="https://github.com/asemaikauas/debatelink">
     <img src="static/img/LOGO.JPG" alt="Logo" width="120" height="120">
   </a> 
 
-  <h3 align="center">Debatelink</h3>
+  <h3 align="center">Learn Debates with Debatelink!</h3>
 
   <p align="center">
-    Simple web application where users can learn about the organization of Debatelink and its services and programs, 
+    Functional web application where users can learn about the organization's mission, services, and programs — and submit a registration form to express their interest
     <br />
     <br />
-    <a href="https://www.youtube.com/watch?v=zewjy05VNL8">View Demo</a>
+    <a href="https://debatelink-2.onrender.com/">Visit Website</a>
+    <br />
+    <a href="https://youtu.be/-zIKTPEdKto">View Demo</a>
   </p>
 </div>
 
@@ -46,14 +48,10 @@
 
 ## About The Project
 
-**AI Debate Topic Analyzer** is a web tool that helps debaters and educators get instant motion analysis. It uses OpenAI’s GPT to provide:
 
-- Motion difficulty level and topic category
-- 3 strong arguments for both Government and Opposition
-- Suggested readings and debate video links (optional)
-- Format-specific outputs (BP, WSDC, Public Forum)
+**Debatelink** is a web application of my organization that promotes debate education and critical thinking for students across Central Asia. It features a dynamic landing page where users can learn about the mission, achievements, and programs of the organization, register for events through the interest submitting form, and get involved.
 
-This tool is designed for students, debate clubs, and educators who want to save time and improve motion prep.
+An integrated admin panel allows authorized team member to review all registrations submitted through the site — making it a lightweight CRM for tracking outreach and engagement.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,7 +60,6 @@ This tool is designed for students, debate clubs, and educators who want to save
 ### Built With
 
 * [Flask](https://flask.palletsprojects.com/)
-* [OpenAI API](https://platform.openai.com/)
 * [Bootstrap](https://getbootstrap.com)
 * [HTML/CSS/JS](https://developer.mozilla.org/)
 
@@ -82,8 +79,8 @@ You’ll need:
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/yourusername/ai-debate-topic-analyzer.git
-   cd ai-debate-topic-analyzer
+   git clone https://github.com/asemaikauas/AIDEBATE.git
+   cd AIDEBATE
    ```
 
 2. Set up a virtual environment  
@@ -97,17 +94,18 @@ You’ll need:
    pip install -r requirements.txt
    ```
 
-4. Add your OpenAI API key to a `.env` file:  
+4. In the root of your project (same level as app.py), create a file named .env and add your OpenAI API key:
+
    ```
    OPENAI_API_KEY=your-api-key
    ```
 
-5. Run the app  
+5. Through the terminal, run the app  
    ```bash
    flask run
    ```
 
-6. Visit `http://localhost:5000`
+6. Visit `http://127.0.0.1:5000`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,7 +173,7 @@ Contributions are what make the open source world amazing!
 ## Contact
 
 Asemai – kauasasemai05@gmail.com  
-Project Link: [github.com/asemaikauas/ai-debate-topic-analyzer](https://github.com/asemaikauas/ai-debate-topic-analyzer)
+Project Link: [https://github.com/asemaikauas/AIDEBATE](https://github.com/asemaikauas/AIDEBATE)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,4 +187,3 @@ Project Link: [github.com/asemaikauas/ai-debate-topic-analyzer](https://github.c
 * [Font Awesome](https://fontawesome.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
