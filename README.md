@@ -168,7 +168,7 @@ Contributions are what make the open source world amazing!
 ## Contact
 
 Asemai – kauasasemai05@gmail.com  
-Project Link: [https://github.com/asemaikauas](https://github.com/asemaikauas)
+Project Link: [debatelink](https://github.com/asemaikauas/debatelink)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
